@@ -1,0 +1,104 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.hero-section {
+  background-image: url(../assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  /* font-family: Inter; */
+  padding: 40px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #ffd801;
+  margin-top: 40px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 12px #484848;
+  font-weight: 500;
+}
+
+.diploma {
+  color: #fff;
+  font-size: 57px;
+  font-style: italic;
+  letter-spacing: 1px;
+  background-color: #081736;
+  border-bottom: 2px solid #ffd801;
+  display: inline-block;
+  padding: 1px 15px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.diploma span {
+  color: #ffd801;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-right: 1px solid #fff;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.cards:last-child {
+  border: none;
+}
+
+.cards p {
+  font-size: 17px;
+  margin: 0;
+  padding-left: 10px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.cards p span {
+  display: block;
+}
+
+.cardsrow {
+  display: flex;
+}
+
+.btn {
+  background: #ffd801;
+  border-color: #ffd801;
+  color: #000;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media (max-width: 660px) {
+  .cardsrow {
+    display: block;
+  }
+  .cards {
+    border: none;
+    margin-top: 20px;
+  }
+}
